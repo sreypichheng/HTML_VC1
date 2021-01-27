@@ -2,11 +2,10 @@
 body{
     margin: 0;
     padding: 0px;
-        /* background-image: url('img_girl.jpg');
-        background-repeat: no-repeat;
-        /* background-attachment: fixed; */
-         /* background-size: 100% ;
-        background-color: #e7ebec; */
+}
+.logo{
+    width: 70px;
+    height: auto;
 }
 ul{
     margin: 0;
@@ -30,11 +29,15 @@ li a:hover{
 }
 /* end style for menu */
 /* style for footer */
+.main{
+    width: 100%;
+    height: 100vh;
+}
 .container{
     width: 100%;
     height: 150px;
     background: #22bbea;
-    margin-top: 500px;
+    margin-top: 30px;
 }
 .col-6{
     width: 40%;
@@ -54,40 +57,24 @@ p{
     font-size: 15px;
 }
 /* end style for footer */
-.a{
-    width: 100%;
-    height: 100vh;
-    background: url(../image/pic.png) no-repeat;
-    background-size: cover;
-    
-}
-.a p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:rgb(255, 255, 255)
-}
-.b{
-    color:seashell;
-    background-color: seagreen;
 
-}
-.c p{
-    width: 100%;
-    height: 100vh;
-     
-}
 .textandregister{
     display:flex;
     justify-content: space-around;
+    background-color: blue;
+
 }
 .text{
     width: 40%;
-
+    color: #f0ecec;
 }
 .register{
     width: 58%;
     padding-bottom: 20px;
+    
+}
+.rquee{
+    color: #f5f5f5;
 }
 input[type=text], input[type=email]{
     width: 98%;
@@ -102,4 +89,71 @@ input[type=submit]{
 .d img{
     width: 100%;
     height: 100vh;
+}
+.E {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    
+    
+}
+.E img{
+    width: 95%;
+    height: 50vh;
+    
+}
+
+.S{
+    background-color:  #22bbea;
+    padding-right: 50%;
+    
+ }
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:100%;
+    width:100%;
+    background-color: blue;
+}.images{
+    display: flex;
+    justify-content: space-around;
+    background-color: #459bb6;
+    margin-top: 50px;
+}
+.header{
+    background: rgb(7, 7, 7);
+    color:#f5f5f5(143, 141, 141);
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+    
+}
+.pich{
+    padding-left: 40px;
+    color:#f0ecec;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    background-color: #727474;
+    width: 100%;
+    color: #f0ecec;
+}
+.right{
+    background-color: rgb(253, 253, 252);
+    width: 100%;
+    padding: 10px;
+}
+
+.pic{
+    width: 20%;
+    height:30vh;
+    margin-top: 10px;
+    border-radius: 50%;
 }
