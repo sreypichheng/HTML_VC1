@@ -273,14 +273,14 @@ textarea{
     
     }
 
-.cv {
+ .cv {
     text-align: center; 
     padding: 10px;  
     background-color: #125688;
     width: 20%;
     border-radius: 20px;
     margin-left: 40%;
-  }
+  } 
   .cv a{
       color: white;
   }
@@ -356,6 +356,7 @@ p{
   table td ,th{
       padding-bottom: 20px;
       color: white;
+      text-emphasis: 70%;
   }
   .containertable{
       background-image: url(https://cdn57.androidauthority.net/wp-content/uploads/2015/11/00-best-backgrounds-and-wallpaper-apps-for-android-920x470.jpg);
