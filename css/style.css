@@ -36,7 +36,7 @@ li a:hover{
 .container{
     width: 100%;
     height: 150px;
-    background: #22bbea;
+    background: #5f315f;
     margin-top: 30px;
 }
 .col-6{
@@ -56,57 +56,53 @@ li a:hover{
 p{
     font-size: 15px;
 }
+.a{
+    width: 100%;
+    height: 50vh;
+    background: url(https://www.passerellesnumeriques.org/wp-content/uploads/2019/11/cover-website-2-1080x400.png) ;
+    background-size: cover;
+}
 /* end style for footer */
 
 .textandregister{
     display:flex;
     justify-content: space-around;
-    background-color: blue;
+    background-color: rgba(92, 92, 182, 0.6);
 
 }
 .text{
     width: 40%;
-    color: #f0ecec;
+    color: #070707;
 }
 .register{
     width: 58%;
     padding-bottom: 20px;
     
 }
-.rquee{
-    color: #f5f5f5;
-}
-input[type=text], input[type=email]{
+
+input[type=text], input[type=email],input[type=password]{
     width: 98%;
     height: 30px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 input[type=submit]{
     width: 100px;
     height: 30px;
+    border-radius: 10px;
 
+}
+textarea{
+    border-radius: 10px;
 }
 .d img{
     width: 100%;
     height: 100vh;
 }
-.E {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 20px;
-    background-color: cornflowerblue;
-    padding: 20px;
-    
-    
-}
-.E img{
-    width: 95%;
-    height: 50vh;
-    
-}
+
 
 .S{
-    background-color:  #22bbea;
+    background-color:  #24a1c7;
     padding-right: 50%;
     
  }
@@ -116,26 +112,19 @@ input[type=submit]{
     text-align:right;
     height:100%;
     width:100%;
-    background-color: blue;
-}.images{
+    color: #0f0f0f;
+}
+.images{
     display: flex;
     justify-content: space-around;
     background-color: #459bb6;
     margin-top: 50px;
 }
-.header{
-    background: rgb(7, 7, 7);
-    color:#f5f5f5(143, 141, 141);
-    display:flex;
-    justify-content: space-around;
-    padding: 30px;
-    
-    
-}
-.pich{
+
+/* .pich{
     padding-left: 40px;
     color:#f0ecec;
-}
+} */
 .skill{
     display: flex;
     justify-content: space-around;
@@ -157,3 +146,157 @@ input[type=submit]{
     margin-top: 10px;
     border-radius: 50%;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  .fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+  marquee{
+      color: white;
+  }
+  
+/* .sort{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hard{
+    width: 45%;
+    height: 60vh;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(https://socialistproject.ca/content/uploads/2020/08/education-covid.png);
+}
+.soft{
+    width: 45%;
+    height: 60vh;
+   padding: 10px;
+   margin: 10px;
+   background-image: url(https://www.schooleducationgateway.eu/files/jpg11/equityinschools.jpg);
+    
+} */
+
+
+.teacher {
+    background-image: url('eveing.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+   
+  }
+ 
+  
+.home{
+    background-image: url(https://image.freepik.com/free-photo/wood-office-desk-table-with-laptop-computer-smartphone-cup-coffee-supplies_33795-373.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.wellc{
+    display: flex;
+    justify-content: space-around   ;
+}
+.photo img{
+    width:450px;
+    border-radius: 50%;
+    padding-top: 8%;
+}
+.name h1{
+    font-size: 100px;
+    color: aqua;
+}
+.Exper{
+    background-image: url( https://cdn.thepennyhoarder.com/wp-content/uploads/2015/11/14110045/MM.SECONDJOBS-2.jpg);
+    background-size: cover;
+     width: 80%;
+    height: 70vh;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.edc{
+    display: flex;
+    justify-content: space-around;
+}
+.gmap_canvas{
+    display: flex;
+
+    width: 100%;
+    justify-content: space-evenly;
+}
+.gmap_canvas .PN img{
+    width: 100%;
+    height: 97vh;
+}
+.sorttext{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
+  
+    }
+    
+
+.tleft{
+    width: 90%;
+    
+}
+.s1{
+    display: flex;
+    }
+.s2{
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left:100px ;
+
+    }
+.s3 img{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    }
+.s4 img{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    }
+.s3 p{
+    width: 80%;
+    color: rgb(0, 0, 0);
+    margin-top: 3%;
+    font-family: sans-serif;
+    }
+.s4 p{
+    width: 80%;
+    color: rgb(0, 0, 0);
+    margin-top: 3%;
+    font-family: sans-serif;
+    }
